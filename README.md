@@ -1,6 +1,6 @@
 ![](https://ncase.me/anxiety/sharing/banner.png)
 
-# [Play the interactive story here!](https://ncase.me/anxiety/)
+# [Play the interactive story here!](https://kaneqd.github.io/anxiety/)
 
 ## Public Domain
 
