@@ -7,7 +7,7 @@
 Nicky Case a Monplaisir darují veškerou práci na této hře Veřejné Doméně, pod [Creative Commons Zero](https://creativecommons.org/choose/zero/).
 To znamená: můžete používat/předělávat jakýkoliv obrázky / kód / hudbu v této hře pro *jakékoliv* účely, včetně komerčního užití!
 
-**Q:** Musím ujasnit, že ti neni mě dílo?    
+**Q:** Musím ujasnit, že to neni mě dílo?    
 **A:** Neni to legálně *povinno* ale je to velmi oceněno <3
 
 **Q:** Můžu legálně tvrdit že jsem toto vytvořil já?    
