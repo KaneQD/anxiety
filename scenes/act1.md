@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: A TOTO JE ÚZKOST TOHOTO ČLOVĚKA
 
-n: _YOU_ ARE THE ANXIETY
+n: _TY_ JSI TA ÚZKOST
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Hele! My jsme zas tady?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: TVÁ PRÁCE JE OCHRÁNIT SVÉHO ČLOVĚKA PŘED *NEBEZPEČÍM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: VE SKUTEČNOSTI, HRANÍ TÉTO HRY ZNOVU JE VYSTAVUJE *NEBEZPEČÍ* PRÁVĚ TEĎ
 
-n: QUICK, WARN THEM!
+n: RYCHLE, VARUJ HO!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: Člověče! Poslyš, jsme v nebezpečí! Hráč...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...nás bude zase mučit!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...nenajde alternativní konec!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...se dostane do ludo-narativní disonance!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: Donutí nás stočit se do klubíčka a brečet!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: Donutí nás rozbít ti mobil protože ti zbůsobil záchvat paniky!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: Donutí nás *NE*praštit hostitele té párty!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: Donutí nás praštit toho sympaťáckýho hostitele!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Hele, možná tentokrát neskočíme z té střechy--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: DONUTÍ NÁS SKOČIT Z TÝ STŘECHY.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: VŠECHNY TYHLE NOVÝ VĚCI SE NÁM STANOU, A PAK--
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: Jasně, ten příběh v *celku* je stejnej, ale každá kapitola má dva konce, plus všechny dialogové možno--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: Hráč bude zklamán, vypne tabulku v prohlížeči, vymaže náš software a pak--
 
 (#act1_replay_end)
 
@@ -112,27 +112,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: Laudo-co?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: Příběh byl o tom, že se můžeš *ROZHODNOUT* postavit zdravý vztah se svým strachem,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Ale hraní této hry znovu dokáže dodat pouze stejný příběh,což implikuje že tvé *ROZHODNUTÍ* jsou bezvýznamné,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: Což ukazuje konflikt mezi významem hry a jejími dovednostmi,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: Což rozhrnuje vrstvy naší narativní dimenze,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: A pak--
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: UMŘEEEEEEEEEEEEEEEEEM
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: Tak jo, zpátky do rolí.
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (NECH _TVOJI_ ÚZKOST BLA BLA BLA NEJPODOBNĚJŠÍ K _TVÉMU_ STRACHU BLA BLA VÍŠ JAK NA TO)
 
 ```
 sfx("squeak");
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Á, můj vlk se vrátil. Faaantastický.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: TVŮJ ÚKOL JE OCHRÁNIT SVÉHO ČLOVĚKA PŘED *NEBEZPEČÍM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: VE SKUTEČNOSTI, TEN SENDVIČ JE VYSTAVUJE *NEBEZPEČÍ* PRÁVĚ TEĎ
 
-n: QUICK, WARN THEM!
+n: RYCHLE, VARUJ HO!
 
 ```
 sfx("squeak");
@@ -204,7 +204,7 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: Člověče! Poslyš. jsme v nebezpečí! To nebezpečí je...
 
 `bb({body:"squeeze"})`
 
@@ -214,11 +214,11 @@ n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Obědváme sami! Zase!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Nejsme produktivní při obědvání!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Ten bílý chléb je pro nás nezdravý!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Snad nevíš že samota je spojena s předběžnou smrtí stejně jako kouření 15 cigaret denně?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,17 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Ehm, děkuji že cituješ své zdroje, ale--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: Což znamená že pokud *ihned* nebudeme s někým trávit čas, tak-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: UMŘEMEEEEEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: POUŽIL JSI *STRACH Z NEMILOSTI*
 
 (#act1b)
 
@@ -271,27 +271,27 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: Vytáhni s noťas a začni ihned pracovat na něčem!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: Ehm, radši bych si nenadrobil do klávesnice--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: Pokud jakkoli nepřispíváme k tělesu společnosti, tak jsme společnostní parazit!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: Společnostní těleso půjde k společnostnímu doktorovi pro prášky na společnostní parazity a pak--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: UMŘEMEEEEEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: YOU USED *FEAR OF BEING A BAD PERSON*
+n: POUŽIL JSI *STRACH Z ŠPATNÉHO SVĚDOMÍ*
 
 (#act1b)
 
@@ -315,18 +315,18 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Have those studies been replicat--
+h: Byly ty studie repliková--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Processed wheat will spike our blood sugar so they'll have to amputate all our limbs and then we'll-
+b: Zpracovaná pšenice nám zvýší hladinu krevního cukru takže nám amputujou všechny končetiny a pak-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: UMŘEMEEEEEEEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -339,37 +339,37 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: YOU USED *FEAR OF BEING HARMED*
+n: POUŽIL JSI *STRACH Z UBLÍŽENÍ*
 
 (#act1b)
 
 # act1b
 
-n: IT'S SUPER EFFECTIVE
+n: JE TO SUPER EFEKTIVNÍ
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: See, human? I am your loyal guard-wolf!
+b: Vidíš, člověče? Já jsem tvůj strážný pes!
 
 `bb({body:"pride_talk"});`
 
-b: Trust your gut! Your feelings are always valid!
+b: Věř svému instinktu! Tvé pocity jsou vždy platné!
 
 `bb({body:"pride"});`
 
-n: GET YOUR HUMAN'S ENERGY BAR TO ZERO
+n: DOSTAŇ MĚŘÍTKO ENERGIE ČLOVĚKA NA NULU
 
-n: TO PROTECT THEIR PHYSICAL + SOCIAL + MORAL NEEDS, YOU CAN USE:
+n: K OCHRANĚ JEJICH FYZICKÝCH + SOCIÁLNÍCH + MORÁLNÍCH POTŘEB, MŮŽEŠ POUŽÍT:
 
-n: FEAR OF *BEING HARMED* #harm#
+n: STRACH Z *UBLÍŽENÍ* #harm#
 
-n: FEAR OF *BEING UNLOVED* #alone#
+n: STRACH Z *NEMILOSTI* #alone#
 
-n: AND FEAR OF *BEING A BAD PERSON* #bad#
+n: A STRACH Z *ŠPATNÉHO SVĚDOMÍ* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (PRO-TIP: PLAY THE CHOICES THAT PERSONALLY HIT YOUR DEEPEST, DARKEST FEARS!~)
+n4: (RADA: HRAJ MOŽNOSTI, KTERÉ OSOBNĚ ODPOVÍDAJÍ *TVÉMU* STRACHU!~)
 
 h: ...
 
@@ -383,18 +383,18 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: you know what maybe it's time to check my phone.
+h: víš co je asi načase abych si zkontroloval mobil.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTECT YOUR HUMAN
+n: OCHRAŇ SVÉHO ČLOVĚKA.
 
-n: FROM THE WORLD. FROM OTHER PEOPLE. FROM THEMSELF.
+n: PŘED SVĚTEM. PŘED LIDMI. PŘED SEBOU.
 
-n: GOOD LUCK
+n: HODNĚ STĚSTÍ
 
 (...500)
 
