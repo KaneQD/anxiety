@@ -6,7 +6,7 @@ SceneSetup.act1();
 
 (...300)
 
-n: A TOTO JE LIDSKÁ ÚZKOST
+n: TOTO JE LIDSKÁ ÚZKOST
 
 n: _TY_ JSI TA ÚZKOST
 
@@ -32,7 +32,7 @@ n: TVÁ PRÁCE JE OCHRÁNIT SVÉHO ČLOVĚKA PŘED *NEBEZPEČÍM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: VE SKUTEČNOSTI, HRANÍ TÉTO HRY ZNOVU JE VYSTAVUJE *NEBEZPEČÍ* PRÁVĚ TEĎ
+n: VE SKUTEČNOSTI, HRANÍ TÉTO HRY ZNOVU HO VYSTAVUJE *NEBEZPEČÍ* PRÁVĚ TEĎ
 
 n: RYCHLE, VARUJ HO!
 
@@ -194,7 +194,7 @@ n: TVŮJ ÚKOL JE OCHRÁNIT SVÉHO ČLOVĚKA PŘED *NEBEZPEČÍM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: VE SKUTEČNOSTI, TEN SENDVIČ JE VYSTAVUJE *NEBEZPEČÍ* PRÁVĚ TEĎ
+n: VE SKUTEČNOSTI, TEN SENDVIČ HO VYSTAVUJE *NEBEZPEČÍ* PRÁVĚ TEĎ
 
 n: RYCHLE, VARUJ HO!
 
@@ -1276,7 +1276,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: To co snažím říct je to že jsme manipulativní úchyláci.
+b: To co snažím říct je to, že jsme manipulativní úchyláci.
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1601,7 +1601,7 @@ b: Tvůj mobil ti dával úzkostný záchvat!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg a Přátelé se ti vbourali do mentálního zdraví aby z tebe vytřískali prachy!
+b: Zuckerberg a Přátelé se ti vbourali do mentálního zdraví aby z tebe vymlátili tvé veškeré prachy!
 
 ```
 bb({body:"fear", eyes:"fear"});
