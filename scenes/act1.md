@@ -6,7 +6,7 @@ SceneSetup.act1();
 
 (...300)
 
-n: A TOTO JE ÚZKOST TOHOTO ČLOVĚKA
+n: A TOTO JE LIDSKÁ ÚZKOST
 
 n: _TY_ JSI TA ÚZKOST
 
