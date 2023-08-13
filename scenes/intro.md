@@ -92,7 +92,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Vítej! Tohle je míň "hra," spíš takový interaktivní příběh. Doufám že rád čteš!
+n3: Vítej! Tohle není přesně "hra," ale spíš takový interaktivní příběh. Doufám že rád čteš!
 
 n3: Takže než začneme, jak by jsi rád *četl*?
 
