@@ -1417,7 +1417,7 @@ b: Když už mluvíme o párty, ohledně tohodle víkendu, tohle je mé FINÁLN�
 
 # act1h
 
-b: We sh--
+b: Měli by--
 
 ```
 bb({eyes:"wat", mouth:"small"});
