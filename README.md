@@ -1,10 +1,10 @@
 ![](https://ncase.me/anxiety/sharing/banner.png)
 
-# [Play the interactive story here!](https://kaneqd.github.io/anxiety/)
+# [Zahraj si interaktivní příběh zde!](https://kaneqd.github.io/anxiety/)
 
 ## Public Domain
 
-Nicky Case and Monplaisir hereby dedicate all their work for this game to the public domain, under [Creative Commons Zero](https://creativecommons.org/choose/zero/).
+Nicky Case a Monplaisir hereby dedicate all their work for this game to the public domain, under [Creative Commons Zero](https://creativecommons.org/choose/zero/).
 That means: you can remix and reuse *any* of the original art / code / music in this game for *any* purpose, even commercial use!
 
 **Q:** Do I have to give attribution?    
@@ -19,8 +19,8 @@ That means: you can remix and reuse *any* of the original art / code / music in 
 **Q:** Can I sell a port of this game?    
 **A:** Yes! But to avoid confusion, I recommend labeling your game as "Fan-Made Port", and *link to this statement saying I'm explicitly allowing commercial remixes*. (Example: [a Steam port of another one of my games!](https://store.steampowered.com/app/1103210/We_Become_What_We_Behold_FanMade_Port/)) This is to avoid accusations of theft from folks who weren't aware I always open-source + public-domain my projects.
 
-**Q:** Can I turn this game into a dating sim between the human and wolf?   
-**A:** uh
+**Q:** Můžu toto změnit v dating sim mezi člověkem a tím vlkem?   
+**A:** 
 
 
 ## Full Credits
