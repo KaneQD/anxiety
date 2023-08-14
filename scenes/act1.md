@@ -1191,7 +1191,7 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: To co myslím je to ŽE UMŘEM O SAMOTĚ
+b: To co se snažím říct je to ŽE UMŘEM O SAMOTĚ
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -1307,7 +1307,7 @@ b: Roztrhaj ti kůži na krvavé konfety, z tvých vnitřností vyrobí stuhy a 
 {{/if}}
 
 {{if !_.whitebread && !_.parasite}}
-b: Co TAKOVÁ pozvánka na párty?!
+b: TO by byla pořádná párty, co?!
 {{/if}}
 
 ```
@@ -1367,7 +1367,7 @@ b: Bude to vpohodě.
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: Jako tvůj věrný strážný pes, vždy budu hledat nebezpečí, a zkusím tě co nejlépe ochránit.
+b: Jako tvůj věrný strážný pes, vždy budu hledat nebezpečí, a zkusím tě co nejlépe před ním ochránit.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
@@ -1576,7 +1576,7 @@ n: GRATULUJI
 
 n: ÚSPĚŠNĚ JSI OCHRÁNIL FYZICKÉ + SOCIÁLNÍ + MORÁLNÍ POTŘEBY TVÉHO ČLOVĚKA
 
-n: JEN SE PODÍVEJ, JAK JSOU VDĚČNÍ!
+n: JEN SE PODÍVEJ, JAK TI JSOU VDĚČNÝ!
 
 (...500)
 
