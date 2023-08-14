@@ -940,6 +940,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
 b: Chronická samota zvýší naše hladiny kortizolu společně s rizikem kardiovaskulárního onemocnění a mrtvice!
+
 ```
 hong({mouth:"shock", eyes:"shock"});
 attack("18p", "harm");
