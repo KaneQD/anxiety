@@ -94,7 +94,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 n3: Vítej! Tohle není přesně "hra," ale spíš takový interaktivní příběh. Doufám že rád čteš!
 
-n3: Takže než začneme, jak by jsi rád *četl*?
+n3: Takže než začneme, jak bys chtěl *číst*?
 
 `publish("show_options_bottom")`
 
