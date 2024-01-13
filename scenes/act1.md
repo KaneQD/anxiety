@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: POUŽIL JSI *STRACH Z NEMILOSTI*
+n: POUŽIL JSI *STRACH Z NELÁSKY*
 
 (#act1b)
 
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: POUŽIL JSI *STRACH Z ŠPATNÉHO SVĚDOMÍ*
+n: POUŽIL JSI *ŠPATNÉ SVĚDOMÍ*
 
 (#act1b)
 
@@ -339,7 +339,7 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: POUŽIL JSI *STRACH Z UBLÍŽENÍ*
+n: POUŽIL JSI *STRACH Z ÚRAZU*
 
 (#act1b)
 
@@ -361,15 +361,15 @@ n: DOSTAŇ MĚŘÍTKO ENERGIE ČLOVĚKA NA NULU
 
 n: K OCHRANĚ JEJICH FYZICKÝCH + SOCIÁLNÍCH + MORÁLNÍCH POTŘEB, MŮŽEŠ POUŽÍT:
 
-n: STRACH Z *UBLÍŽENÍ* #harm#
+n: STRACH Z *ÚRAZU* #harm#
 
-n: STRACH Z *NEMILOSTI* #alone#
+n: STRACH Z *NELÁSKY* #alone#
 
 n: A STRACH Z *ŠPATNÉHO SVĚDOMÍ* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (RADA: HRAJ MOŽNOSTI, KTERÉ OSOBNĚ ODPOVÍDAJÍ *TVÉMU* STRACHU!~)
+n4: (RADA: VYBÍREJ MOŽNOSTI, KTERÉ ODPOVÍDAJÍ *TVÉMU* STRACHU!~)
 
 h: ...
 
@@ -595,7 +595,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"annoyed"});
 ```
 
-h: Nicméně. Facebook je na mě moc. Potřebuju něco klidnějšího, míň úzkostnýho.
+h: Tak nic, Facebook je na mě moc. Potřebuju něco klidnějšího, míň úzkostnýho.
 
 `hong({eyes:"neutral"});`
 
@@ -727,7 +727,7 @@ h: o-KEJ, zkusíme Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh, jo to je roztomilý, zrovna jsem to retweetnul--
+h: Hehe, jo to je roztomilý, zrovna jsem to retweetnul--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
