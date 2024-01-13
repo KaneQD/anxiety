@@ -11,7 +11,7 @@ To znamená: můžete používat/předělávat jakýkoliv obrázky / kód / hudb
 **A:** Neni to legálně *povinno* ale je to velmi oceněno <3
 
 **Q:** Můžu legálně tvrdit že jsem toto vytvořil já?    
-**A:** Ano, stejně jako můžeš tvrdit že si napsal Frankensteina Mary Shelley, nebo že máš šest krvácejících chlupatých bradavic.
+**A:** Ano, stejně jako můžeš tvrdit že si napsal Frankensteina od Mary Shelley, nebo že máš 13 bradavek.
 
 **Q:** Můžu toto vydat na své stránce?    
 **A:** Možná. I když je to legálni ve smyslu copyrightu, mnoha stránek má pravidla proti vydávání open source/veřejnoprávních prací *bez* významných modifikací. (Pokud je to ovšem tvá stránka, tak klidně ji tam vydej!)
