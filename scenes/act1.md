@@ -141,7 +141,7 @@ b: A pak--
 
 `bb({body:"panic"})`
 
-b: UMŘEEEEEEEEEEEEEEEEEM
+b: UMŘEEEEEEEEEEEEEEEEEMEEEEE
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: POUŽIL JSI *STRACH Z NELÁSKY*
+n: POUŽIL JSI *STRACH Z SAMOTY*
 
 (#act1b)
 
@@ -363,9 +363,9 @@ n: K OCHRANĚ JEJICH FYZICKÝCH + SOCIÁLNÍCH + MORÁLNÍCH POTŘEB, MŮŽEŠ P
 
 n: STRACH Z *ÚRAZU* #harm#
 
-n: STRACH Z *NELÁSKY* #alone#
+n: STRACH Z *SAMOTY* #alone#
 
-n: A STRACH Z *ŠPATNÉHO SVĚDOMÍ* #bad#
+n: A *ŠPATNÉ SVĚDOMÍ* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
@@ -412,7 +412,7 @@ n: ROUND ONE: *FIGHT!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Hmm. Facebook mi říká že tenhle víkend bude nějaká párty.
+h: Hmm. Facebook říká že tenhle víkend bude nějaká párty.
 
 `bb({eyes:"uncertain"});`
 
