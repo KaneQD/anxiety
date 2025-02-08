@@ -23,7 +23,7 @@ To znamená: můžete používat/předělávat jakýkoliv obrázky / kód / hudb
 **A:** ehm
 
 
-## Plné Titulky
+## Credits
 
 Art / Code / Writing by [Nicky Case](https://ncase.me/)
 
